@@ -52,13 +52,13 @@ fun HomeScreen(openDrawer: () -> Unit, modifier: Modifier = Modifier) {
             }
             item {
                 Text(
-                    "Hello Rickmwasofficial!",
+                    "Hi Rickmwasofficial!",
                     style = MaterialTheme.typography.titleLarge.copy(
                         fontWeight = FontWeight.ExtraBold
                     ),
                     modifier = Modifier.padding(horizontal = 4.dp)
                 )
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(5.dp))
             }
             item {
                 TopDetails(
@@ -86,8 +86,8 @@ fun HomeScreen(openDrawer: () -> Unit, modifier: Modifier = Modifier) {
 fun DetailsCard(title: String, percentage: Float, action: String, modifier: Modifier = Modifier) {
     Card(
         modifier = modifier
-            .height(250.dp)
-            .width(200.dp)
+            .height(210.dp)
+            .width(180.dp)
     ) {
         Column(
             modifier = Modifier.fillMaxSize(),
